@@ -97,7 +97,7 @@ def pairs_and_token_details_from_graph() -> Dict[str, Any]:
     """
     param_types = {'$first': 'Int!', '$skip': 'Int!'}
     param_values = {'first': step, 'skip': 0}
-    graph = Graph('https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2')
+    graph = Graph('https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-3')
 
     contracts = []
     total_pairs_num = 0
