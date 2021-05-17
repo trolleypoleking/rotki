@@ -119,7 +119,7 @@ class Balancer(EthereumModule):
 
         try:
             self.graph_uniswap: Optional[Graph] = Graph(
-                'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2',
+                'https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-3',
             )
         except RemoteError as e:
             self.graph_uniswap = None
