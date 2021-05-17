@@ -1,3 +1,4 @@
+#
 # build stage
 FROM node:lts-alpine as frontend-build-stage
 
