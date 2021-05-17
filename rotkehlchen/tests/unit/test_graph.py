@@ -7,7 +7,7 @@ from rotkehlchen.chain.ethereum.graph import Graph, format_query_indentation
 from rotkehlchen.constants.timing import QUERY_RETRY_TIMES
 from rotkehlchen.errors import RemoteError
 
-TEST_URL_1 = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2'
+TEST_URL_1 = 'https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-3'
 TEST_QUERY_1 = (
     """
     tokenDayDatas
