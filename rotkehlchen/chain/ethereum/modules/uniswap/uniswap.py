@@ -117,10 +117,10 @@ class Uniswap(EthereumModule):
         self.trades_lock = Semaphore()
         try:
             self.graph = Graph(
-                'https://api.thegraph.com/subgraphs/name/benesjan/uniswap-v2',
+                'https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-3',
             )
             self.graph_v3 = Graph(
-                'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3',
+                'https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-3',
             )
         except RemoteError as e:
             self.msg_aggregator.add_error(SUBGRAPH_REMOTE_ERROR_MSG.format(error_msg=str(e)))
