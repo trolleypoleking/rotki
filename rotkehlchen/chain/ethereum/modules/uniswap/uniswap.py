@@ -117,7 +117,7 @@ class Uniswap(EthereumModule):
         self.trades_lock = Semaphore()
         try:
             self.graph = Graph(
-                'https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-3',
+                'https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-2',
             )
             self.graph_v3 = Graph(
                 'https://graph.wanswap.finance/subgraphs/name/wanswap/wanswap-subgraph-3',
